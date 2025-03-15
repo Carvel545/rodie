@@ -1,0 +1,11 @@
+public class Main {
+  publiic static void main (String[] args ) {
+       int start = 1;
+       int step = 2;
+       int count = 5;
+
+      for (int i = 0; i < count; i++) {
+           System.out.print((start + i * step) + " ");
+      }
+   }
+}  
